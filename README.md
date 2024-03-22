@@ -1,1 +1,1 @@
-# ML-College-Student-AI-Use-in-School
+# College Student AI Use in School
