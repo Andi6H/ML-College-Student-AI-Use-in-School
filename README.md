@@ -41,7 +41,7 @@ jupyter notebook main.ipynb
 ```
 
 ### Detajet e datasetit:
-Në këtë projekt ne kemi përdorur një dataset të huazuar nga Kaggle në linkun në vijim: [College Student AI Use in School](#https://www.kaggle.com/datasets/trippinglettuce/college-student-ai-use-in-school/data), i cili përmban 258 rreshta dhe 7 kolona:
+Në këtë projekt ne kemi përdorur një dataset të huazuar nga Kaggle në linkun në vijim: [College Student AI Use in School](https://www.kaggle.com/datasets/trippinglettuce/college-student-ai-use-in-school/data), i cili përmban 258 rreshta dhe 7 kolona:
 ```
 - Timestamp
 - On a scale from 1 to 5, how would you rate your knowledge and understanding of Artificial Intelligence (AI)?
