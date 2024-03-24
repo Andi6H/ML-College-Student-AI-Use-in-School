@@ -61,7 +61,7 @@ Pamje e rreshtave në fillim të datasetit:
 Numri dhe tipet e të dhënave:                                                                                              
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/35085595-19af-4072-9ba3-9626943f0f24)
 
-Numri i vlerave te zbrazëta:                                                                                              
+Numri i vlerave të zbrazëta:                                                                                              
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/d6b69b7c-6488-452e-aba8-3c61734ed58d)
 
 Numri i përjashtuesve (outliers) me metodën Z-Score:                                                                        
