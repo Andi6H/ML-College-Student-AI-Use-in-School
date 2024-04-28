@@ -51,3 +51,21 @@ Në këtë projekt ne kemi përdorur një dataset të huazuar nga Kaggle në lin
 - Do you know what Chat-GPT is?
 - What college are you in?
 ```
+Ne do të zhvillojmë një parashikim se: cilit fakultet i takon studenti në bazë të përgjigjeve të tij në pyetjet paraprake.
+> Për arritjen e parashikimit të target vlerës tonë do të përdorim klasifikimin.
+ 
+### Rezultate:
+Pamje e rreshtave në fillim të datasetit:
+![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/2e7c5715-83ff-4f8f-a7eb-a5bd5d5d25d3)
+
+Numri dhe tipet e të dhënave:                                                                                              
+![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/35085595-19af-4072-9ba3-9626943f0f24)
+
+Numri i vlerave të zbrazëta:                                                                                              
+![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/d6b69b7c-6488-452e-aba8-3c61734ed58d)
+
+Numri i përjashtuesve (outliers) me metodën Z-Score:                                                                        
+![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/8ddbd8b8-e3b4-448d-9221-c930f039a284)
+
+Vizualizimi sipas tipeve të të dhënave                                                                                    
+![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/9e9c2f01-b160-4f59-aee9-875c389f3a88)
