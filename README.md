@@ -51,7 +51,7 @@ Në këtë projekt ne kemi përdorur një dataset të huazuar nga Kaggle në lin
 - Do you know what Chat-GPT is?
 - What college are you in?
 ```
-Ne do të zhvillojmë një parashikim se: cilit fakultet i takon studenti në bazë të përgjigjeve të tij në pyetjet paraprake.
+Ne do të zhvillojmë një parashikim se: a e din studenti se çfarë është ChatGPT në bazë të përgjigjeve të tij në pyetjet paraprake.
 > Për arritjen e parashikimit të target vlerës tonë do të përdorim klasifikimin.
  
 ### Rezultate:
@@ -69,3 +69,5 @@ Numri i përjashtuesve (outliers) me metodën Z-Score:
 
 Vizualizimi sipas tipeve të të dhënave                                                                                    
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/9e9c2f01-b160-4f59-aee9-875c389f3a88)
+
+## Faza 2: Trajnimi i modelit
