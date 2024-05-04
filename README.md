@@ -147,12 +147,12 @@ K-Nearest Neighbor  | 0.8461538461538461
 
 <p> Calculating feature importance for the best permorming algorithm </p>
 
-<p> Logistic Regression: </p>
+<p> <b>Logistic Regression:</b> </p>
 
-Confusion Matrix of the Model:
+Confusion Matrix of the Model: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/99ebf8ef-bae0-4964-b94f-d567f69b579c)
 
-Classification report:
+Classification report: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/ff14681a-f761-4654-afce-b8aeb146f984)
 
 Feature  | Importance  
@@ -170,12 +170,12 @@ school_use_of_AI  | 0.013021
 </ul>
 
 
-<p> Random Forest (RF): </p>
+<p> <b>Random Forest (RF):</b> </p>
 
-Confusion Matrix of the Model:
+Confusion Matrix of the Model: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/a1a7bd1b-310e-4129-b016-d213034f0a5c)
 
-Classification report:
+Classification report: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/c0036b67-00bb-40f1-b91e-260671e13808)
 
 Feature  | Importance  
@@ -186,12 +186,12 @@ interested_in_AI_career  | 0.220134
 school_use_of_AI  | 0.211903 
 
 
-<p> Decision Tree (DT): </p>
+<p> <b>Decision Tree (DT):</b> </p>
 
-Confusion Matrix of the Model:
+Confusion Matrix of the Model: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/bcb21c4e-f2aa-4662-92a5-7c92867aa8a2)
 
-Classification report:
+Classification report: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/8e8f9b12-b69a-4d3c-ac62-b65fd247176b)
 
 Feature  | Importance  
@@ -202,34 +202,34 @@ interested_in_AI_career  | 0.236740
 school_use_of_AI  | 0.202685
 
 
-<p> Naive-Bayes (NB): </p>
+<p> <b>Naive-Bayes (NB):</b> </p>
 
-Confusion Matrix of the Model:
+Confusion Matrix of the Model: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/c6674a80-ffb6-40c1-a85f-f106fc5c5fe7)
 
-Classification report:
+Classification report: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/72e13971-0fef-432e-b631-f016a395a1b5)
 
 
-<p> Support Vector Machines (SVM): </p>
+<p> <b>Support Vector Machines (SVM):</b> </p>
 
-Confusion Matrix of the Model:
+Confusion Matrix of the Model: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/2fada11c-436e-430a-a195-2c70edc493d4)
-</br>
-Classification report:
+
+Classification report: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/1def0c05-96bf-4f85-9e6a-0741e56db69f)
 
 
-<p> K-Nearest Neighbor (KNN): </p>
+<p> <b>K-Nearest Neighbor (KNN):</b> </p>
 
-Confusion Matrix of the Model:
+Confusion Matrix of the Model: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/fb841ce9-2a9f-4766-b141-a5fbd2e936f2)
 
-Classification report:
+Classification report: </br>
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/ade25ad8-9111-41c1-8eca-bc3d7fdba565)
 
 
-<p> The comparison of the models </p>
+<p> <b>The comparison of the models</b> </p>
 
 Model  | F1 | Recall | Accuracy | Precision
 ------------- | ------------- | ------------- | ------------- | -------------
