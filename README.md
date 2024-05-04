@@ -239,3 +239,6 @@ Decision Tree  | 0.934783 | 0.934783 | 0.884615 | 0.934783
 Naive Bayes  | 0.914894 | 0.934783 | 0.846154 | 0.895833  
 SVM  | 0.938776 | 1 | 0.884615 | 0.884615
 K-Nearest Neighbor  | 0.938776 | 1 | 0.884615 | 0.884615
+
+
+## Faza 3: Analiza dhe evaluimi (Ritrajnimi)
