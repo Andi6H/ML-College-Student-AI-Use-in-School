@@ -215,7 +215,7 @@ Classification report:
 
 Confusion Matrix of the Model:
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/2fada11c-436e-430a-a195-2c70edc493d4)
-
+</br>
 Classification report:
 ![image](https://github.com/Andi6H/ML-College-Student-AI-Use-in-School/assets/63552231/1def0c05-96bf-4f85-9e6a-0741e56db69f)
 
