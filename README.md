@@ -243,6 +243,8 @@ K-Nearest Neighbor  | 0.938776 | 1 | 0.884615 | 0.884615
 
 ## Faza 3: Analiza dhe evaluimi (Ritrajnimi)
 
+The provided results show the performance of various classification models on different test sizes (90/10, 80/20, and 70/30 splits). Here are the models evaluated: Logistic Regression, Random Forest, Decision Tree, Naive Bayes, SVM, and K-Nearest Neighbor (KNN). The metrics used to evaluate these models are F1 score, Recall, Accuracy, and Precision.
+
 <p> The comparison of the models for <b>90/10</b>: </p>
 
 Model  | F1 | Recall | Accuracy | Precision
@@ -275,3 +277,54 @@ Decision Tree  | 0.905109 | 0.925373 | 0.833333 | 0.885714
 Naive Bayes  | 0.920863 | 0.955224 | 0.858974 | 0.888889  
 SVM  | 0.924138 | 1 | 0.858974 | 0.858974
 K-Nearest Neighbor  | 0.906475 | 0.940299 | 0.833333 | 0.875
+
+
+<p> <b>General Observations:</b> </p>
+
+<ol>
+<li>Recall Consistency: Across all splits, Random Forest, Decision Tree, and Naive Bayes consistently achieve a Recall of 1. This indicates that these models are excellent at identifying all instances of the positive class, which in this case is "knowing what Chat-GPT is".</li>
+<li>Accuracy and F1 Score: Random Forest generally achieves the highest accuracy and F1 score across all splits, indicating it balances both precision and recall effectively.</li>
+<li>Precision: Random Forest and Naive Bayes generally achieve the highest precision, indicating fewer false positives.</li>
+</ol>
+
+<p> <b>Detailed Analysis:</b> </p>
+
+<b>90/10 Split:</b>
+<ul>
+ <li><b>Random Forest and KNN:</b> These models achieve the highest accuracy (0.923077) and precision (0.92). This indicates they are very effective even with a smaller test set.</li>
+ <li><b>Logistic Regression, SVM, Naive Bayes, Decision Tree:</b> These models have the same accuracy and precision (0.884615) except Decision Tree (0.916667). The similar performance of Logistic Regression, SVM, and Naive Bayes suggests they handle the data similarly, though Decision Tree slightly outperforms them in accuracy.</li>
+</ul>
+
+<b>80/20 Split:</b>
+<ul>
+ <li><b>Random Forest:</b> Still performs the best with an accuracy of 0.903846 and high precision (0.93617).</li>
+ <li><b>Naive Bayes:</b> Shows improved performance compared to the 90/10 split, with an accuracy of 0.846154 and precision of 0.895833.</li>
+ <li><b>Logistic Regression, SVM, KNN:</b> Maintain the same accuracy and precision as in the 90/10 split.</li>
+ <li><b>Decision Tree:</b> Performance remains similar to the 90/10 split, showing it’s robust to changes in test size.</li>
+</ul>
+
+<b>70/30 Split:</b>
+<ul>
+ <li><b>Random Forest, Naive Bayes:</b> Maintain their strong performance with Random Forest having the highest precision (0.888889) and accuracy (0.858974).</li>
+ <li><b>Logistic Regression, SVM, KNN:</b> Performance remains consistent, indicating stability across different test sizes.</li>
+ <li><b>Decision Tree:</b> Performance drops slightly in terms of accuracy compared to the other splits but maintains good precision.</li>
+</ul>
+
+<p> <b>Why One Algorithm Predicts Better Than Others:</b> </p>
+
+<ol>
+<li><b>Random Forest:</b> It’s an ensemble method that combines multiple decision trees to improve predictive performance and robustness. This explains its high accuracy, precision, and recall across all splits.</li>
+<li><b>Decision Tree:</b> While flexible and interpretable, single decision trees can be prone to overfitting, but they still perform well due to their ability to capture complex patterns.</li>
+<li><b>Naive Bayes:</b> This model assumes feature independence, which might be a reasonable assumption for this dataset, leading to high recall and decent precision and accuracy.</li>
+<li><b>Logistic Regression, SVM:</b> These linear models are effective but might not capture non-linear patterns as well as Random Forest or even Naive Bayes when the assumption of independence holds well.</li>
+<li><b>K-Nearest Neighbor (KNN):</b> Performs well in higher dimensions with adequate distance metrics but might struggle with very small or very large datasets due to computational complexity and sensitivity to irrelevant features.</li>
+</ol>
+
+<p> <b>Conclusion:</b> </p>
+<ul>
+ <li><b>Random Forest:</b> Best overall performer due to its ensemble nature, providing robustness and high performance metrics across different splits.</li>
+ <li><b>Consistency Across Splits:</b> Models like Logistic Regression, SVM, and KNN show consistent performance, indicating they are stable across different training-test splits but may not capture complex patterns as well as ensemble methods.</li>
+ <li><b>Model Selection:</b> Choosing the best model depends on the specific metric of interest. For high recall, Random Forest, Naive Bayes, and Decision Tree are optimal. For overall balanced performance (F1 score and accuracy), Random Forest is the best choice.</li>
+</ul>
+
+These results highlight the importance of evaluating models using multiple metrics and different data splits to ensure robustness and reliability in predictions.
