@@ -292,7 +292,7 @@ K-Nearest Neighbor  | 0.906475 | 0.940299 | 0.833333 | 0.875
 <b>90/10 Split:</b>
 <ul>
  <li><b>Random Forest and KNN:</b> These models achieve the highest accuracy (0.923077) and precision (0.92). This indicates they are very effective even with a smaller test set.</li>
- <li><b>Logistic Regression, SVM, Naive Bayes, Decision Tree:</b> These models have the same accuracy and precision (0.884615) except Decision Tree (0.916667). The similar performance of Logistic Regression, SVM, and Naive Bayes suggests they handle the data similarly, though Decision Tree slightly outperforms them in accuracy.</li>
+ <li><b>Logistic Regression, SVM, Naive Bayes, Decision Tree:</b> These models have the same accuracy (0.884615). The similar performance of Logistic Regression and SVM suggests they handle the data similarly, though Decision Tree and Naive Bayes slightly outperforms them in accuracy.</li>
 </ul>
 
 <b>80/20 Split:</b>
