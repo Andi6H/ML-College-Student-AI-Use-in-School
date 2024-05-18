@@ -242,3 +242,36 @@ K-Nearest Neighbor  | 0.938776 | 1 | 0.884615 | 0.884615
 
 
 ## Faza 3: Analiza dhe evaluimi (Ritrajnimi)
+
+<p> The comparison of the models for <b>90/10</b>: </p>
+
+Model  | F1 | Recall | Accuracy | Precision
+------------- | ------------- | ------------- | ------------- | -------------
+Logistic Regression  |  0.938776 | 1 | 0.884615 | 0.884615   
+Random Forest  | 0.958333 | 1 | 0.923077 | 0.92
+Decision Tree  | 0.93617 | 0.956522 | 0.884615 | 0.916667
+Naive Bayes  | 0.93617 | 0.956522 | 0.884615 | 0.916667  
+SVM  | 0.938776 | 1 | 0.884615 | 0.884615
+K-Nearest Neighbor  | 0.958333 | 1 | 0.923077 | 0.92
+
+<p> The comparison of the models for <b>80/20</b>: </p>
+
+Model  | F1 | Recall | Accuracy | Precision
+------------- | ------------- | ------------- | ------------- | -------------
+Logistic Regression  |  0.938776 | 1 | 0.884615 | 0.884615   
+Random Forest  | 0.946237 | 0.956522 | 0.903846 | 0.93617
+Decision Tree  | 0.934783 | 0.934783 | 0.884615 | 0.934783
+Naive Bayes  | 0.914894 | 0.934783 | 0.846154 | 0.895833  
+SVM  | 0.938776 | 1 | 0.884615 | 0.884615
+K-Nearest Neighbor  | 0.938776 | 1 | 0.884615 | 0.884615
+
+<p> The comparison of the models for <b>70/30</b>: </p>
+
+Model  | F1 | Recall | Accuracy | Precision
+------------- | ------------- | ------------- | ------------- | -------------
+Logistic Regression  |  0.924138 | 1 | 0.858974 | 0.858974   
+Random Forest  | 0.920863 | 0.955224 | 0.858974 | 0.888889
+Decision Tree  | 0.905109 | 0.925373 | 0.833333 | 0.885714
+Naive Bayes  | 0.920863 | 0.955224 | 0.858974 | 0.888889  
+SVM  | 0.924138 | 1 | 0.858974 | 0.858974
+K-Nearest Neighbor  | 0.906475 | 0.940299 | 0.833333 | 0.875
